@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in page</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to my home page</h1>
+        <h1 class="h1-alignent">Welcome to my home page</h1>
     </header>
     <main>
-        <section>
-            <h3>Please login</h3>
-            <form action="">
-                <input type="text" id="email" placeholder="your email">
-                <input type="password" id="password" placeholder="password">
-            </form>
+        <section class="section-background-col">
+            <div>
+                <h3>Please login</h3>
+                
+                    <input type="text" class="border" id="email" size="60" placeholder="your email">
+                    <br> 
+                    <input type="password" class="border" id="password" size="60" placeholder="password">
+                    <br> <br>
+                    <button class="btn-color" id="login-btn">Submit</button>
+       
+            </div>
         </section>
     </main>
+
+    <script src="js/login_btn.js"></script>
 </body>
 </html>
